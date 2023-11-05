@@ -1,0 +1,50 @@
+.embed #container {
+    padding: 0;
+    margin: 0;
+}
+
+.embed form ul li {
+    padding: 0;
+    max-width: 97% !IMPORTANT;
+    margin-top: 15px;
+}
+
+.wufoo li.focused {
+    background-color: #0000 !important;
+    outline: none;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    background: none !IMPORTANT;
+    height: 30px !important;
+    outline: none;
+    display: block;
+    max-height: 30px;
+}
+
+.wufoo li#fo2li1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wufoo li#fo2li1 label {
+    width: 100%;
+}
+
+.wufoo li#fo2li1 span {
+    width: 49%;
+    float: unset;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.wufoo li#fo2li1 span input.text {
+    max-width: 93% !IMPORTANT;
+    display: block;
+}
+
+form li span {
+    float: none;
+}
